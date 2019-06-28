@@ -1,0 +1,9 @@
+version: "3"
+services:
+   nifi:
+     image: apache/nifi
+     ports:
+       - 8080:8080 # Unsecured HTTP Web Port
+       - 8090:8090 # internal server port
+     volumes:
+       - "./flowfiles:/opt/nifi/flowfiles"
