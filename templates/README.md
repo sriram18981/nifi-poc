@@ -1,1 +1,1 @@
-Sample templates to start work with
+# Sample templates to start work with
